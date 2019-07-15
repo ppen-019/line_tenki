@@ -1,3 +1,18 @@
+<h2>LINE bot 天気予報</h2>
+<p>朝7時に今日の天気を、昼12時半に明日の天気を配信するLINE bot（東京限定）</p>
+<h2>機能一覧</h2>
+<ul>
+<li>Heroku Schedulerにて朝7時、昼12時半に処理を自動実行</li>
+<li>OpenWeatherMapの無料WebAPIから該当する日の6時間おき（朝・昼・夜）の天気JSONデータを取得</li>
+<li>LINEにPUSHメッセージ送信</li>
+</ul>
+<h2>使用ツール</h2>
+  <ul>
+  <li>PHP/Laravel</li>
+  <li>Heroku Scheduler</li>
+  <li>OpenWeatherMap 5 day / 3 hour forecast API</li>
+  </ul>
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
